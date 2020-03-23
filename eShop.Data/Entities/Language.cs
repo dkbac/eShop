@@ -6,7 +6,9 @@ namespace eShop.Data.Entities
 {
     public class Language
     {
-        public string Id { get; set; }
+        public int LanguageID { get; set; }
+
+        public string LanguageCode { get; set; }
 
         public string Name { get; set; }
 

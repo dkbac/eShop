@@ -6,8 +6,8 @@ namespace eShop.Data.Entities
 {
     public class ProductTranslation
     {
-        public int Id { set; get; }
-        public int ProductId { set; get; }
+        public int ProductTranslationID { set; get; }
+        public int ProductID { set; get; }
         public string Name { set; get; }
         public string Description { set; get; }
         public string Details { set; get; }
@@ -15,7 +15,7 @@ namespace eShop.Data.Entities
         public string SeoTitle { set; get; }
 
         public string SeoAlias { get; set; }
-        public string LanguageId { set; get; }
+        public string LanguageID { set; get; }
 
         public Product Product { get; set; }
 
