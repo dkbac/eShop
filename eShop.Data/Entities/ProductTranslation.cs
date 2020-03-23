@@ -15,7 +15,7 @@ namespace eShop.Data.Entities
         public string SeoTitle { set; get; }
 
         public string SeoAlias { get; set; }
-        public string LanguageID { set; get; }
+        public int LanguageID { set; get; }
 
         public Product Product { get; set; }
 

@@ -11,7 +11,7 @@ namespace eShop.Data.Configurations
     {
         public void Configure(EntityTypeBuilder<Product> builder)
         {
-            builder.ToTable("Product");
+            builder.ToTable("Products");
             builder.HasKey(x => x.ProductID);
             builder.Property(x => x.ProductID).UseIdentityColumn();
             builder.Property(x => x.ProductPrice).IsRequired();
